@@ -73,7 +73,7 @@ if(is_page('contact') && $_POST) {
                             $titles[] = get_sub_field('title');
                         endwhile;
                     ?>
-                    <h1 class="rotate">
+                    <h1>
                         <?= implode(" ", $titles) ?>
                     </h1>
                     <?php else: ?>
