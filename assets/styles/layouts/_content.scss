@@ -883,6 +883,12 @@ body.thank-you #body-container {
       font-size: 36px;
     }
   }
+  body.single-project {
+    .header-divider {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
 }
 
 @media (max-width: $screen-lg-max) {
@@ -938,6 +944,12 @@ body.thank-you #body-container {
       font-size: 36px;
     }
   }
+  body.single-project {
+    .header-divider {
+      margin-top: 40px;
+      margin-bottom: 34px;
+    }
+  }
 }
 @media (max-width: $screen-md-max) {
   .about-item p{
@@ -990,6 +1002,12 @@ body.thank-you #body-container {
     }
     span {
       font-size: 30px;
+    }
+  }
+  body.single-project {
+    .header-divider {
+      margin-top: 35px;
+      margin-bottom: 35px;
     }
   }
 }
@@ -1048,6 +1066,12 @@ body.thank-you #body-container {
     }
     span {
       font-size: 30px;
+    }
+  }
+  body.single-project {
+    .header-divider {
+      margin-top: 35px;
+      margin-bottom: 35px;
     }
   }
 }
