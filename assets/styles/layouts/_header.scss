@@ -41,7 +41,7 @@ header {
   nav {
     bottom: -5px;
     position: relative;
-    @media (max-width: $screen-ms-max) {
+    @media (max-width: $screen-sm-max) {
       display: none;
     }
     & + .social-icons {
