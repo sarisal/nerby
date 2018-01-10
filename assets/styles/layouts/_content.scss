@@ -861,8 +861,10 @@ body.thank-you #body-container {
     font-size: 36px;
     line-height: 46px;
   }
-  p {
-    margin-bottom: 70px;
+  .header-content {
+    p {
+      margin-bottom: 70px;
+    }
   }
   section.links a.post-link {
     &.left-link {
@@ -899,6 +901,11 @@ body.thank-you #body-container {
   .header-divider {
     margin-top: 50px;
     margin-bottom: 60px;
+  }
+  .header-content {
+    p {
+      margin-bottom: 60px;
+    }
   }
   h1 {
     font-size: 100px;
@@ -944,6 +951,11 @@ body.thank-you #body-container {
     margin-top: 40px;
     margin-bottom: 50px;
   }
+  .header-content {
+    p {
+      margin-bottom: 50px;
+    }
+  }
   h1 {
     font-size: 90px;
     line-height: 90px;
@@ -988,6 +1000,11 @@ body.thank-you #body-container {
   .header-divider {
     margin-top: 40px;
     margin-bottom: 50px;
+  }
+  .header-content {
+    p {
+      margin-bottom: 50px;
+    }
   }
   h1 {
     font-size: 80px;
