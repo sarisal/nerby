@@ -74,7 +74,7 @@ if(is_page('contact') && $_POST) {
                         endwhile;
                     ?>
                     <h1 class="rotate">
-                        <?= implode(", ", $titles) ?>
+                        <?= implode(" ", $titles) ?>
                     </h1>
                     <?php else: ?>
                     <h1><?= $heading ?></h1>
