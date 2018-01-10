@@ -91,7 +91,7 @@ header {
     @media (max-width: $screen-md-max) {
       text-align: left;
     }
-    @media (max-width: $screen-ms-max) {
+    @media (max-width: $screen-sm) {
       display: none;
       position: absolute;
       top: 0;
