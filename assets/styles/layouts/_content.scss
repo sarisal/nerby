@@ -799,6 +799,7 @@ ul.slick-dots li {
 .about-item {
   .image-item img {
     width: 100%;
+    display: block;
   }
   ul {
     margin: 0;
@@ -836,6 +837,9 @@ body.thank-you #body-container {
   .about-item ul li {
     font-size: 18px;
     line-height: 30px;
+  }
+  .about-item .header-content h2 {
+    margin-top: 80px;
   }
   header {
     a#logo i {
@@ -887,6 +891,9 @@ body.thank-you #body-container {
     font-size: 16px;
     line-height: 24px;
   }
+  .about-item .header-content h2 {
+    margin-top: 80px;
+  }
   header {
     a#logo i {
       font-size: 50px;
@@ -935,6 +942,9 @@ body.thank-you #body-container {
   .about-item ul li {
     font-size: 16px;
     line-height: 24px;
+  }
+  .about-item .header-content h2 {
+    margin-top: 70px;
   }
   header {
     a#logo i {
@@ -985,6 +995,9 @@ body.thank-you #body-container {
   .about-item ul li {
     font-size: 15px;
     line-height: 24px;
+  }
+  .about-item .header-content h2 {
+    margin-top: 70px;
   }
   header {
     a#logo i {
