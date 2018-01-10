@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Playfair+Display');
+
+// Box sizing
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+  -moz-box-sizing: $boxmodel;
+  box-sizing: $boxmodel;
+}
+
+// Reset the box-sizing
+//
+// Heads up! This reset may cause conflicts with some third-party widgets.
+// For recommendations on resolving such conflicts, see
+// http://getbootstrap.com/getting-started/#third-box-sizing
+* {
+  @include box-sizing(border-box);
+}
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+body {
+  font-family: "brother-1816", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.3em;
+  color: #777;
+  margin: 0;
+}
+
+h1, h2, h3, h5 {
+  color: $color-grey-dark;
+  letter-spacing: 0.1px;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 39px;
+  text-transform: none;
+  color: $color-grey-medium;
+}
+
+h6 {
+  font-size: 28px;
+  line-height: 39px;
+  color: #666;
+  font-weight:300;
+  margin: 45px 0;
+}
+
+p {
+  color: #555;
+}
+
+a {
+  color: $color-grey-dark;
+}
+
+.nav a {
+  transition: all 0.2s ease;
+}
+
+ul {
+  &.horizontal {
+    li {
+      display: inline-block;
+    }
+  }
+  &.vertical {
+
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #c1c1c1;
+  margin-top: 25px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1450px) {
+  h1, #industry-recognition-section h2, #core-values-section h2 {
+    font-size: 61px !important;
+    line-height: 71px !important;
+  }
+}
+.pagination-row {
+  margin-top: 55px;
+  .col-md-6:last-child {
+    text-align: right;
+  }
+}
+.button {
+  font-family: Lato, serif;
+  color: #222;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  text-decoration: none;
+  &.black {
+    border: 1px solid #bebebe;
+  }
+  &hover {
+    color: #000;
+  }
+}
+
+.entry-content h1 {
+  text-transform: none;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.post-content {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #88888b;
+  font-family: sans-serif;
+  line-height: 24px;
+}
+
+body.work section.full-width, body.archive section.full-width {
+  padding-bottom: 0;
+  & > .grid-list {
+    padding-bottom: 0;
+  }
+}

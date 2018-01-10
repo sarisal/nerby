@@ -1,0 +1,30 @@
+@import 'common/variables';
+@import 'common/global';
+@import 'common/mixins';
+@import 'bootstrap/bootstrap';
+@import 'layouts/content';
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/sidebar';
+@import 'components/thumbnails';
+@import 'components/social';
+@import 'components/forms';
+@import 'components/icons';
+@import 'vendor/_jquery.fs.selecter';
+@import 'vendor/slick';
+@import 'vendor/slick-theme';
+@import 'vendor/swiper';
+@import 'vendor/rotator';
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-device-width: 736px) {
+  .swiper-container {
+    height: auto;
+  }
+}
+
+.swiper-wrapper{width: 10000px}

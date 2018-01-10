@@ -1,0 +1,22 @@
+/*
+Theme Name:         Nerby.com Theme
+Theme URI:          http://www.nerby.com
+Description:        Custom theme for Nerby.com
+Version:            0.0.1
+Author:             Tim Sheehan
+Author URI:         http://www.timsheehan.com.au
+*/
+
+
+.slick-dots li,
+.slick-dots li button 
+{
+width: auto !important;
+height: auto !important;
+}
+
+.slick-dots li button:before {
+width: 5vw !important;
+height: 5vw !important;
+font-size: 10vw !important;
+}
