@@ -634,7 +634,7 @@ section.links a.post-link {
   h1, h2, h3 {
     max-width: 100% !important;
   }
-  
+
   .container-fluid {
     padding-left: 30px !important;
     padding-right: 30px !important;
@@ -799,6 +799,7 @@ body.thank-you #body-container {
   flex: 1;
 }
 
+
 /**
  * Breakpoint specific stuff:
  */
@@ -859,11 +860,6 @@ body.thank-you #body-container {
     .header-divider {
       margin-top: 40px;
       margin-bottom: 40px;
-    }
-  }
-  body.recent-projects {
-    header {
-      height: auto !important;
     }
   }
 }
@@ -1069,5 +1065,11 @@ body.thank-you #body-container {
   h2 {
     font-size: 24px;
     line-height: 32px;
+  }
+}
+
+body.recent-projects {
+  header {
+    height: auto !important;
   }
 }
