@@ -634,34 +634,7 @@ section.links a.post-link {
   h1, h2, h3 {
     max-width: 100% !important;
   }
-  body.home, body.about, body.single-project, body.contact  {
-    h1 {
-      font-size: 32.5px !important;
-      line-height: 40px !important;
-    }
-    h2 {
-      font-size: 18px!important;
-      line-height: 22.5px!important;
-      color: #88888b !important;
-    }
-
-    section.content:last-of-type {
-      padding-bottom: 0;
-      .grid {
-        padding-bottom: 0;
-      }
-    }
-  }
-
-  body.about h2 {
-    margin-bottom: 60px;
-  }
-
-  body.about aside h2 {
-    font-size: 34px!important;
-    line-height: 43.5px!important;
-    color: #88888b !important;
-  }
+  
   .container-fluid {
     padding-left: 30px !important;
     padding-right: 30px !important;
