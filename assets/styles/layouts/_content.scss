@@ -955,7 +955,7 @@ body.thank-you #body-container {
     }
   }
 }
-@media (max-width: $screen-md-max) {
+@media (max-width: ($screen-md-max - 2)) {
   .about-item p{
     font-size: 18px;
   }
@@ -1020,7 +1020,7 @@ body.thank-you #body-container {
 
 }
 
-@media (max-width: $screen-ms-max) {
+@media (max-width: ($screen-ms-max - 2)) {
   .about-item p{
     font-size: 16px;
   }
