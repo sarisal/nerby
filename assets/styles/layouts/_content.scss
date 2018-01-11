@@ -826,11 +826,10 @@ body.thank-you #body-container {
   flex: 1;
 }
 
-
 /**
  * Breakpoint specific stuff:
  */
-@media (min-width: $screen-lg-max) {
+@media (min-width: ($screen-lg-max - 1)) {
   .about-item p{
     font-size: 18px;
   }
@@ -889,9 +888,14 @@ body.thank-you #body-container {
       margin-bottom: 40px;
     }
   }
+  body.recent-projects {
+    header {
+      height: auto !important;
+    }
+  }
 }
 
-@media (max-width: $screen-lg-max) {
+@media (max-width: ($screen-lg-max - 2)) {
   .about-item p{
     font-size: 18px;
   }

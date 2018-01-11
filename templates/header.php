@@ -36,10 +36,11 @@ if(is_page('contact') && $_POST) {
 <header>
     <div id="responsive-navigation">
     <?php
-    if (has_nav_menu('primary_navigation')) :
-        wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new Nav\SageNavWalker(), 'menu_class' => 'nav navbar-nav horizontal']);
-    endif;
-    ?>
+    if (is_user_logged_in()):
+        wp_nav_menu(['menu' => 'Logged In Menu', 'walker' => new Nav\SageNavWalker(), 'menu_class' => 'nav navbar-nav horizontal']);
+    else:
+        wp_nav_menu(['menu' => 'Primary Navigation', 'walker' => new Nav\SageNavWalker(), 'menu_class' => 'nav navbar-nav horizontal']);
+    endif ?>
     </div>
     <div class="container-fluid" id="header-top">
         <div class="row main-header">
@@ -52,15 +53,17 @@ if(is_page('contact') && $_POST) {
                 <a href="javascript:;" id="open-mobile"><i class="icon-burger"></i></a>
                 <a href="javascript:;" id="close-mobile"><i class="icon-x"></i></a>
                 <nav role="navigation">
-                    <?php
-                    if (has_nav_menu('primary_navigation')) :
-                        wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new Nav\SageNavWalker(), 'menu_class' => 'nav navbar-nav horizontal']);
-                    endif;
-                    ?>
+                <?php
+                if (is_user_logged_in()):
+                wp_nav_menu(['menu' => 'Logged In Menu', 'walker' => new Nav\SageNavWalker(), 'menu_class' => 'nav navbar-nav horizontal']);
+                else:
+                wp_nav_menu(['menu' => 'Primary Navigation', 'walker' => new Nav\SageNavWalker(), 'menu_class' => 'nav navbar-nav horizontal']);
+                endif ?>
                 </nav>
             </div>
         </div>
     </div>
+    <?php if(!is_page('recent-projects')): ?>
     <div class="container-fluid header-bottom">
         <div class="row">
             <div class="col-md-12">
@@ -88,6 +91,7 @@ if(is_page('contact') && $_POST) {
             </div>
         </div>
     </div>
+    <?php endif ?>
 
 </header>
 
