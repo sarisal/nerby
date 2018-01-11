@@ -186,7 +186,11 @@ a#logo i {
 
 
 
-
+@media only screen and (max-device-width: 920px) {
+  h2 br {
+    display: none !important;
+  }
+}
 
 
 
