@@ -1087,3 +1087,10 @@ body.thank-you #body-container {
     }
   }
 }
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
