@@ -44,12 +44,12 @@ if(is_page('contact') && $_POST) {
     </div>
     <div class="container-fluid" id="header-top">
         <div class="row main-header">
-            <div class="col-xs-6">
+            <div class="col-xs-4">
                 <a href="<?= esc_url(home_url('/')); ?>" title="<?php bloginfo('name'); ?>" id="logo">
                     <i class="icon-n"></i>
                 </a>
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-8">
                 <a href="javascript:;" id="open-mobile"><i class="icon-burger"></i></a>
                 <a href="javascript:;" id="close-mobile"><i class="icon-x"></i></a>
                 <nav role="navigation">

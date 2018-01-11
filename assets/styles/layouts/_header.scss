@@ -168,12 +168,7 @@ a#logo i {
   margin: 0;
 }
 
-header nav li.menu-logout {
-  border-left: 1px solid #b3b3b3;
-}
-
-
-@media only screen and (max-device-width: 736px) {
+@media only screen and (max-width: 736px) {
 
   body.single-project header i.icon-n {
     color: #222 !important;
@@ -186,13 +181,13 @@ header nav li.menu-logout {
   }
 }
 
-@media only screen and (min-device-width: 769px) {
+@media only screen and (min-width: 769px) {
   #open-mobile {
     display: none !important;
   }
 }
 
-@media only screen and (max-device-width: 920px) {
+@media only screen and (max-width: 920px) {
   h2 br {
     display: none !important;
   }

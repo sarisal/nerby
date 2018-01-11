@@ -18,6 +18,15 @@
         </section>
         <?php endif ?>
 
+        <div id="project-slides">
+            <ul id="slider">
+                <?php  while (have_rows('featured_projects')) : the_row() ?>
+                    <?php $project = get_sub_field('project') ?>
+                    <li><a href=""><img src="<?= get_sub_field('project')  ?>"></a></li>
+                <?php endwhile ?>
+            </ul>
+        </div>
+
         <?php  while (have_rows('project_list')) : the_row() ?>
             <h3><?= get_sub_field('heading') ?></h3>
             <table class="project-table" width="100%">
