@@ -29,9 +29,19 @@ footer {
 @media only screen and (max-device-width: 920px) {
   footer .col-sm-6, footer .footer-nav  {
     text-align: center !important;
+    display: block;
+  }
+
+  footer .col-sm-6 + .col-sm-6 {
+    display: none !important;
   }
 
   footer .footer-nav {
     margin-top: 20px;
   }
+
+  footer .col-sm-6 {
+    width: 100%;
+  }
 }
+

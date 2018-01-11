@@ -182,23 +182,17 @@ a#logo i {
   }
 }
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width: 769px) {
   #open-mobile {
     display: none !important;
   }
 }
-
-
-
 
 @media only screen and (max-device-width: 920px) {
   h2 br {
     display: none !important;
   }
 }
-
-
-
 
 /**
  * Breakpoint specific stuff:

@@ -900,7 +900,7 @@ body.thank-you #body-container {
     line-height: 24px;
   }
   .about-item .header-content h2 {
-    margin-top: 80px;
+    margin-top: 70px;
   }
   header {
     a#logo i {
@@ -959,9 +959,7 @@ body.thank-you #body-container {
     font-size: 16px;
     line-height: 24px;
   }
-  .about-item .header-content h2 {
-    margin-top: 70px;
-  }
+
   header {
     a#logo i {
       font-size: 40px;
@@ -1010,6 +1008,12 @@ body.thank-you #body-container {
       margin-bottom: 35px;
     }
   }
+  .about-item .header-content h2 {
+    margin-top: 60px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
 }
 
 @media (max-width: $screen-ms-max) {
@@ -1021,7 +1025,7 @@ body.thank-you #body-container {
     line-height: 24px;
   }
   .about-item .header-content h2 {
-    margin-top: 70px;
+    margin-top: 50px;
   }
   header {
     a#logo i {
@@ -1079,7 +1083,7 @@ body.thank-you #body-container {
 @media (min-width: $screen-sm-max) {
   .about-item {
     ul {
-      margin-bottom: 100px;
+      margin-bottom: 150px;
     }
   }
 }
