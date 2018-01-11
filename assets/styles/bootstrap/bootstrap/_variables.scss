@@ -285,28 +285,28 @@ $screen-tablet:              $screen-sm-min !default;
 
 // Medium small screen / tablet
 //** Deprecated `$screen-ms` as of v3.0.1
-$screen-ms:                  1366px !default;
+$screen-ms:                  1368px !default;
 $screen-ms-min:              $screen-ms !default;
 //** Deprecated `$screen-tablet` as of v3.0.1
 $screen-tableth:              $screen-ms-min !default;
 
 // Medium screen / desktop
 //** Deprecated `$screen-md` as of v3.0.1
-$screen-md:                  1440px !default;
+$screen-md:                  1442px !default;
 $screen-md-min:              $screen-md !default;
 //** Deprecated `$screen-desktop` as of v3.0.1
 $screen-desktop:             $screen-md-min !default;
 
 // Large screen
 //** Deprecated `$screen-lg` as of v3.0.1
-$screen-lg:                  1680px !default;
+$screen-lg:                  1682px !default;
 $screen-lg-min:              $screen-lg !default;
 //** Deprecated `$screen-lg-desktop` as of v3.0.1
 $screen-lg-desktop:          $screen-lg-min !default;
 
 // Extra large screen / wide desktop
 //** Deprecated `$screen-xl` as of v3.0.1
-$screen-xl:                  1920px !default;
+$screen-xl:                  1922px !default;
 $screen-xl-min:              $screen-xl !default;
 $screen-xl-desktop:          $screen-xl-min !default;
 
