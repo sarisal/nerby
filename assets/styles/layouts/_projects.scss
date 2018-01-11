@@ -1,5 +1,51 @@
 body.recent-projects {
+
+  #body-container  > .container-fluid > h3:first-of-type {
+    margin-bottom: 30px;
+    margin-top: 43px;
+  }
+
+  #slider {
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    li {
+      width: 50%;
+      &:last-child {
+        text-align: right;
+      }
+      display: inline-block;
+      list-style: none;
+      a {
+        display:block;
+        &:hover {
+          opacity: 0.8;
+          transition: all 0.2s ease;
+        }
+        img {
+          display:block;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .grey-wrapper {
+    background-color: #f8f8f8;
+    h3 {
+      margin-top: 40px;
+    margin-bottom: 35px;
+    }
+  }
+  .container-fluid {
+    max-width: 1920px;
+  }
+
   table.project-table {
+    &:last-of-type {
+      margin-bottom: 150px;
+    }
     border: 1px solid #d7d7d7;
     border-spacing: 0;
     border-collapse: collapse;
@@ -27,4 +73,57 @@ body.recent-projects {
       }
     }
   }
+
+
+  /**
+  * Breakpoint specific stuff:
+  */
+  @media (min-width: ($screen-lg-max - 1)) {
+    h3 {
+      font-size: 26px;
+    }
+    #body-container  > .container-fluid > h3:first-of-type {
+      margin-bottom: 50px;
+    }
+    #slider {
+      margin-bottom: 90px - 5;
+    }
+  }
+
+  @media (max-width: ($screen-lg-max - 2)) {
+    h3 {
+      font-size: 24px;
+    }
+    #body-container  > .container-fluid > h3:first-of-type {
+      margin-bottom: 50px;
+    }
+    #slider {
+      margin-bottom: 90px - 5;
+    }
+  }
+
+  @media (max-width: $screen-md-max) {
+    h3 {
+      font-size: 20px;
+    }
+    #body-container  > .container-fluid > h3:first-of-type {
+      margin-bottom: 40px;
+    }
+    #slider {
+      margin-bottom: 80px - 5;
+    }
+  }
+
+  @media (max-width: $screen-ms-max) {
+    h3 {
+      font-size: 20px;
+    }
+    #body-container  > .container-fluid > h3:first-of-type {
+      margin-bottom: 30px;
+    }
+    #slider {
+      margin-bottom: 70px - 5;
+    }
+  }
+
 }
