@@ -24,3 +24,14 @@ footer {
     }
   }
 }
+
+
+@media only screen and (max-device-width: 920px) {
+  footer .col-sm-6, footer .footer-nav  {
+    text-align: center !important;
+  }
+
+  footer .footer-nav {
+    margin-top: 20px;
+  }
+}

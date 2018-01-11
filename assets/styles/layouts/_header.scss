@@ -182,6 +182,11 @@ a#logo i {
   }
 }
 
+@media only screen and (min-device-width: 768px) {
+  #open-mobile {
+    display: none !important;
+  }
+}
 
 
 
