@@ -2,6 +2,9 @@
 /**
  * Template Name: Projects
  */
+
+namespace Roots\Sage;
+use Roots\Sage\View;
 ?>
 <?php while (have_posts()) : the_post(); ?>
 
@@ -9,23 +12,17 @@
 
     <h3>Most Recent Projects</h3>
 
+    <?php if(get_sub_field('primary_heading') && get_sub_field('secondary_heading')): ?>
+    <section class="header-content">
+        <h1><?= get_sub_field('primary_heading') ?></h1>
+        <h2><?= get_sub_field('secondary_heading') ?></h2>
+        <div class="header-divider"></div>
+    </section>
+    <?php endif ?>
 
-        <?php if(get_sub_field('primary_heading') && get_sub_field('secondary_heading')): ?>
-        <section class="header-content">
-            <h1><?= get_sub_field('primary_heading') ?></h1>
-            <h2><?= get_sub_field('secondary_heading') ?></h2>
-            <div class="header-divider"></div>
-        </section>
-        <?php endif ?>
-
-        <div id="project-slides">
-            <ul id="slider">
-                <?php  while (have_rows('featured_projects')) : the_row() ?>
-                    <?php $project = get_sub_field('project') ?>
-                    <li><a href="<?= get_the_permalink($project) ?>"><img src="<?= get_sub_field('image')  ?>"></a></li>
-                <?php endwhile ?>
-            </ul>
-        </div>
+    <section class="content full-width">
+        <?= View::render( 'templates/grid-list.php', [ 'args' => 'post_type=project&posts_per_page=2&post_status=publish' ]) ?>
+    </section>
 </div>
 
 <div class="grey-wrapper">
