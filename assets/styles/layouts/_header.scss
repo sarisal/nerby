@@ -196,24 +196,24 @@ a#logo i {
 /**
  * Breakpoint specific stuff:
  */
-@media (min-width: $screen-lg-max) {
+@media (min-width: ($screen-lg-max - 2)) {
   header nav ul li a {
     font-size: 18px;
   }
 }
 
-@media (max-width: $screen-lg-max) {
+@media (max-width: ($screen-lg-max - 2)) {
   header nav ul li a {
     font-size: 18px;
   }
 }
-@media (max-width: $screen-md-max) {
+@media (max-width: ($screen-md-max - 2)) {
   header nav ul li a {
     font-size: 18px;
   }
 }
 
-@media (max-width: $screen-ms-max) {
+@media (max-width: ($screen-ms-max - 2)) {
   header nav ul li a {
     font-size: 16px;
   }

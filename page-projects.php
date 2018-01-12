@@ -43,7 +43,7 @@ use Roots\Sage\View;
                     <?php $project = get_sub_field('project') ?>
                     <tr>
                         <td><a href="<?= get_permalink($project) ?>"><?= $project->post_title ?></a></td>
-                        <td><?= get_the_category_list(',', '', $project) ?></td>
+                        <td><?= strip_tags(get_the_category_list(',', '', $project)) ?></td>
                         <td><?= date('d/m/Y', strtotime($project->post_date)) ?></td>
                     </tr>
                     <?php endwhile; endif ?>
