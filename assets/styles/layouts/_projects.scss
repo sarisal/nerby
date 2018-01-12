@@ -1,5 +1,9 @@
 body.recent-projects {
 
+  .grid-list.grid {
+    padding-bottom: 0 !important;
+  }
+
   #body-container  > .container-fluid > h3:first-of-type {
     margin-bottom: 30px;
     margin-top: 43px;
