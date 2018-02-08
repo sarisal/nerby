@@ -20,9 +20,32 @@ use Roots\Sage\View;
     </section>
     <?php endif ?>
 
+    <?php if($projects = get_field('featured_projects')): ?>
     <section class="content full-width">
-        <?= View::render( 'templates/grid-list.php', [ 'args' => 'post_type=project&posts_per_page=2&post_status=publish' ]) ?>
+
+        <div class="container-fluid grid-list grid">
+
+            <?php foreach($projects as $project): setup_postdata($project) ?>
+
+                <div class="col-xs-12 col-sm-6 grid-list-item">
+                    <figure>
+                        <a href="<?= get_the_permalink() ?>">
+                            <?php the_post_thumbnail( 'full' ) ?>
+                        </a>
+                        <figcaption>
+                            <div>
+                                <div>
+                                    <span><?= get_field('thumbnail_title') ?: get_the_title() ?></span>
+                                    <p><?= get_field('thumbnail_subtext') ?></p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            <?php endforeach; wp_reset_postdata() ?>
+        </div>
     </section>
+    <?php endif ?>
 </div>
 
 <div class="grey-wrapper">
