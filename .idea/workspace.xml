@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd1142e2-50b9-43d7-bb17-2875006bce0b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/layouts/_content.scss" afterPath="$PROJECT_DIR$/assets/styles/layouts/_content.scss" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/jquery.js" afterPath="$PROJECT_DIR$/dist/scripts/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/jquery.js.map" afterPath="$PROJECT_DIR$/dist/scripts/jquery.js.map" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/modernizr.js" afterPath="$PROJECT_DIR$/dist/scripts/modernizr.js" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/modernizr.js.map" afterPath="$PROJECT_DIR$/dist/scripts/modernizr.js.map" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/editor-style.css" afterPath="$PROJECT_DIR$/dist/styles/editor-style.css" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/editor-style.css.map" afterPath="$PROJECT_DIR$/dist/styles/editor-style.css.map" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" afterPath="$PROJECT_DIR$/dist/styles/main.css.map" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/page-projects.php" afterPath="$PROJECT_DIR$/page-projects.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +36,8 @@
       <file leaf-file-name="page-projects.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page-projects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+            <state relative-caret-position="546">
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -170,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1515123173961</updated>
       <workItem from="1515123175308" duration="902000" />
-      <workItem from="1518081779546" duration="3492000" />
+      <workItem from="1518081779546" duration="3678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4394000" />
+    <option name="totallyTimeSpent" value="4580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="59" width="3115" height="1737" extended-state="0" />
@@ -287,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+        <state relative-caret-position="546">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding />
         </state>
       </provider>

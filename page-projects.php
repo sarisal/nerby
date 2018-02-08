@@ -20,7 +20,7 @@ use Roots\Sage\View;
     </section>
     <?php endif ?>
 
-    <?php if($projects = get_field('featured_projects')): ?>
+    <?php if($projects = get_field('featured_projects', 'option')): ?>
     <section class="content full-width">
 
         <div class="container-fluid grid-list grid">
