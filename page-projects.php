@@ -20,6 +20,9 @@ use Roots\Sage\View;
     </section>
     <?php endif ?>
 
+
+    <?php var_dump(get_field('featured_projects', 'option')) ?>
+
     <?php if($projects = get_field('featured_projects', 'option')): ?>
     <section class="content full-width">
 
