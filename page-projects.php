@@ -21,14 +21,14 @@ use Roots\Sage\View;
     <?php endif ?>
 
 
-    <?php var_dump(get_field('featured_projects', 'option')) ?>
+    <?php $projects = get_field('featured_projects', 'option') ?>
 
-    <?php if($projects = get_field('featured_projects', 'option')): ?>
+    <?php if($projects): ?>
     <section class="content full-width">
 
         <div class="container-fluid grid-list grid">
 
-            <?php foreach($projects as $project): setup_postdata($project) ?>
+            <?php foreach($projects as $post): setup_postdata($post) ?>
 
                 <div class="col-xs-12 col-sm-6 grid-list-item">
                     <figure>
