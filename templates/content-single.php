@@ -27,7 +27,7 @@ while (have_posts()) : the_post();
             <?php endwhile; endif ?>
 
             <?php elseif( get_row_layout() == 'video' ): ?>
-            <div class="content-section-item" style="background-color: <?= $bg ?>;padding: 140px 0">
+            <div class="content-section-item" style="background-color: <?= $bg ?>;padding: 100px 0">
                 <div class="embed-container"><?= get_sub_field('embed_code') ?></div>
             </div>
 
